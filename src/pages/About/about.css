@@ -1,0 +1,159 @@
+
+.translucent-box {
+    margin: auto;
+    background: rgba(255, 255, 255, 0.355); 
+    border-radius: 15px; 
+    padding: 20px;
+    width: 70%;
+    max-width: 100%; 
+    height: auto; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    margin-bottom: 3em;
+  }
+  
+  .resume-actions {
+    text-align: center; 
+    margin: 20px 0; 
+  }
+  
+  
+  .container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 0 20px;
+    align-items: center;
+  }
+  
+  
+  .slides {
+    display: flex;
+    flex-direction: row; 
+    border-radius: 10px;
+    overflow: hidden;
+    
+  }
+  
+  
+  .slide {
+    list-style-type: none;
+    height: 400px;
+    width: 5%; 
+    overflow: hidden;
+    transition: all 500ms linear;
+  }
+  
+  
+  .brand1 { background-color: #8f158d73;}
+  .brand2 { background-color: #6f106d7a; }
+  .brand3 { background-color: #570c5678; }
+  .brand4 { background-color: #3b083a78; }
+  
+  
+  
+  .slide a.action {
+    display: block;
+    height: 100%;
+    position: relative;
+    text-decoration: none;
+  }
+  
+  .slide a.action span {
+    font-weight: 600;
+    color: #fff;
+    transform: rotate(270deg);
+    position: absolute;
+    top: 10%;
+    width: 140px;
+    left: -30%;
+    height: 100px;
+  }
+  
+  
+  .slide-content {
+    display: block;
+    width: 720px;
+    color: #fff;
+    overflow-y: auto;
+    direction: rtl;
+    height: 400px;
+    justify-content: center;
+    align-items: center; 
+    text-align: center; 
+    margin: 0 auto;
+    padding-top: 50px;
+    
+     
+  }
+
+  
+  
+  
+  .active {
+    width: 80%; 
+  }
+  
+  
+  .active a.action {
+    display: none;
+  }
+  
+  
+  .container-skills {
+    width: fit-content;
+    max-width: 80%; 
+    padding: 7px;
+    display: inline-block; 
+    margin: 0 auto; 
+    box-shadow: 0 0 20px rgba(220, 105, 33, 0.768); 
+    text-align: center; 
+  }
+  
+  
+  
+  
+  
+  @media (max-width: 1000px) {
+    /* Adjust the layout to stack slides vertically */
+    .slides {
+      flex-direction: column; /* Stack slides vertically */
+      display: block;
+    }
+  
+    /* Adjust individual slides */
+    .slide {
+      width: 100%; /* Full width for each slide */
+      margin-bottom: 15px; /* Add spacing between slides */
+      height: auto; /* Dynamically adjust height based on content */
+      border-radius: 10px; /* Add rounded corners */
+    }
+  
+    /* Adjust the content inside each slide */
+    .slide-content {
+      width: 100% !important; /* Full width for content */
+      height: auto; /* Fully expand to fit content */
+      padding: 20px; /* Add padding around the content */
+      font-size: 90%; /* Slightly reduce font size for smaller screens */
+      overflow: visible; /* Ensure no scrollbars inside content */
+    }
+  
+    /* Ensure the text in the headers is properly displayed */
+    .slide a.action span {
+      transform: none; /* Reset rotation for smaller screens */
+      position: relative; /* Reset positioning */
+      top: 0;
+      left: 0;
+      width: auto;
+      height: auto;
+    }
+  
+    /* Adjust clickable action link */
+    .slide a.action {
+      padding: 10px; /* Add padding around the text */
+      display: block; /* Ensure the action is visible */
+      text-align: center; /* Center the action text */
+    }
+  }
+  
+
+ 
+  
