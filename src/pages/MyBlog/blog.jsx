@@ -15,7 +15,12 @@ const Blog = () => {
     <div className="dance-blog-container">
       <h1 className="blog-title">Dance Meets Technology</h1>
       <p className="blog-intro">
-        My dance journey has being groomed thoughout my entire life, in addition to my love of technology coding and designing, a merge would be the best way to bring my two passiosn in one.
+        Welcome to my blog! <br />
+        This is where I will be sharing my journey of how dance and technology have been a part of my life. <br />
+        Sometimes you'll see me talk about dance only, sometimes technology only, and sometimes both! <br />
+        I hope you enjoy reading my blog as much as I enjoy writing about my experiences. <br />
+
+        
       </p>
       <div className="grid-container">
         {[ 
