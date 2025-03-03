@@ -53,6 +53,11 @@ const Navbar = () => {
                 Dance Journey
               </Link>
             </li>
+            <li>
+              <Link to="/blog" className="text-black font-bold px-6 py-3 hover:text-white flex items-center">
+                My Blog
+              </Link>
+            </li>
           </>
         )}
       </ul>
@@ -84,6 +89,15 @@ const Navbar = () => {
                   onClick={closeDropdown}
                 >
                   Dance Journey
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/blog"
+                  className="block px-4 py-2 text-center text-black hover:bg-orange-500"
+                  onClick={closeDropdown}
+                >
+                  My Blog
                 </Link>
               </li>
             </ul>
