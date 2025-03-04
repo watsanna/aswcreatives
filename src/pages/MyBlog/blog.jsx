@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import blogbanner from './blogbanner.png';
 import first from './first.png';
-//import './blog.css'; 
+import { Link } from 'react-router-dom';
+
 
 const Blog = () => {
   const [hoveredCard, setHoveredCard] = useState(null);
@@ -58,12 +59,14 @@ const Blog = () => {
             <p className="text-gray-900 font-serif text-[4vw] md:text-[2vw] lg:text-[1vw] mt-4">
             From ever since, I have always seen them as two separate worlds, but now I see them as one.
             </p>
+            <Link to="/integration"> 
             <button 
                             className="btn "
                             onClick={() => handleButtonClick(vr)}
                           >
                             View Blog Post
                           </button>
+                          </Link>
         </div>
         </div>
 
