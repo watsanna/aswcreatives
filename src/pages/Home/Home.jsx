@@ -25,11 +25,16 @@ const Home = () => (
 
      
       <div className="bg-white/40 rounded-xl p-6 md:p-5 w-[90%] md:w-[70%] max-w-full h-auto shadow-md mb-12 mx-auto">
-        <p className="text-gray-900 font-serif text-[4vw] md:text-[2vw] lg:text-[1vw]">
-          I have a Bachelor’s in Science and Technology with a concentration in Computational Science and Engineering, complemented by a minor in Dance, reflecting my unique blend of analytical rigor and artistic flair.
+        <p className="text-gray-900 font-serif text-[5vw] md:text-[4vw] lg:text-[2vw]">
+          I blend creativity and technology to craft front-end experiences that are intuitive, immersive, and inspired.
         </p>
-        <p className="text-gray-900 font-serif text-[4vw] md:text-[2vw] lg:text-[1vw] mt-4">
-          With a keen interest in UI/UX design, I am on the lookout for impactful roles in VR scene development or front-end positions, where I can seamlessly merge computational science with creativity.
+
+        <p className="text-gray-900 font-serif text-[3vw] md:text-[2vw] lg:text-[1vw] mt-4">
+           With a background in computational science and engineering and a passion for UI/UX design, I transform complex ideas into clean, user-centered solutions. I approach each project with the intent to leave an impact; creating experiences that make users feel allured, not overwhelmed. I'm excited by opportunities to contribute to teams that value creativity and innovation.
+        </p>
+
+        <p className="text-gray-900 font-serif text-[3vw] md:text-[2vw] lg:text-[1vw] mt-4">
+          During my thesis, I explored how Natural User Interface (NUI) principles could be applied to immersive 3D environments using Unity and the Oculus Quest headset. This work deepened my passion for front-end development and user experience design, showing me that great design isn’t just visual; but it’s about how it works, how it feels, and how it empowers users.
         </p>
       </div>
 

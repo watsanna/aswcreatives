@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './about.css'; 
-import resume from './Annaliese_Watson_Resume.pdf.pdf';
+import resume from './Annaliese_Watson_Resume.pdf';
 
 
 const About = () => {
@@ -126,6 +126,14 @@ const handleClosePdf = () => {
                 <div className="slide-content">
                 
                  <h1></h1>
+
+                 <div className="container-skills"> 
+                  <p>
+                  M365 Support Analyst - Sharepoint <br />
+                  Kean University Kean IT <br />
+                  Sept 2024 - May 2025
+                </p>
+                </div>
                   
                   <div className="container-skills"> 
                   <p>

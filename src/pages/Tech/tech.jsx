@@ -33,6 +33,34 @@ const Tech = () => {
   return (
     <div className="flex justify-center w-full">
       <ul className="flex flex-wrap justify-center gap-6 w-full">
+
+        <li className="w-full md:w-1/2 lg:w-1/3 p-4">
+          <div className="bg-[#174260] rounded-lg shadow-lg flex flex-col overflow-hidden">
+            <div className="h-40 w-full">
+              <img src={AAImage} alt="UI" className="h-full w-full object-cover"/>
+            </div>
+            <div className="p-4">
+              <h2 className="text-white text-xl font-bold mb-4">
+              UI/UX Project: Silent Voice - an app to learn sign language
+              </h2>
+
+              <a href="https://www.figma.com/proto/9wZsmrcCnRat0lAvTtnIXF/UI%2FUX-Final-Project?page-id=38%3A2786&node-id=41-2787&starting-point-node-id=41%3A2787&scaling=scale-down&content-scaling=fixed&show-proto-sidebar=1&t=01AXWs7XXw5DNThB-1" target="_blank" rel="noopener noreferrer">
+                <button className="btn">
+                View Prototype
+                </button>
+              </a>
+
+              <a href="https://www.figma.com/proto/9wZsmrcCnRat0lAvTtnIXF/UI%2FUX-Final-Project?page-id=0%3A1&node-id=712-2605&viewport=-1090%2C-3331%2C0.4&t=WC0iK27RXWLuwR3d-1&scaling=contain&content-scaling=fixed&starting-point-node-id=712%3A2605" target="_blank" rel="noopener noreferrer">
+                <button className="btn">
+                View Presentation
+                </button>
+              </a>
+
+              
+            </div>
+          </div>
+        </li>
+
         <li className="w-full md:w-1/2 lg:w-1/3 p-4">
           <div className="bg-[#174260] rounded-lg shadow-lg flex flex-col overflow-hidden">
             <div className="h-40 w-full">
@@ -157,32 +185,7 @@ const Tech = () => {
         </li>
 
 
-        <li className="w-full md:w-1/2 lg:w-1/3 p-4">
-          <div className="bg-[#174260] rounded-lg shadow-lg flex flex-col overflow-hidden">
-            <div className="h-40 w-full">
-              <img src={AAImage} alt="UI" className="h-full w-full object-cover"/>
-            </div>
-            <div className="p-4">
-              <h2 className="text-white text-xl font-bold mb-4">
-              UI/UX Project: Silent Voice - an app to learn sign language
-              </h2>
-
-              <a href="https://www.figma.com/proto/9wZsmrcCnRat0lAvTtnIXF/UI%2FUX-Final-Project?page-id=38%3A2786&node-id=41-2787&starting-point-node-id=41%3A2787&scaling=scale-down&content-scaling=fixed&show-proto-sidebar=1&t=01AXWs7XXw5DNThB-1" target="_blank" rel="noopener noreferrer">
-                <button className="btn">
-                View Prototype
-                </button>
-              </a>
-
-              <a href="https://www.figma.com/proto/9wZsmrcCnRat0lAvTtnIXF/UI%2FUX-Final-Project?page-id=0%3A1&node-id=712-2605&viewport=-1090%2C-3331%2C0.4&t=WC0iK27RXWLuwR3d-1&scaling=contain&content-scaling=fixed&starting-point-node-id=712%3A2605" target="_blank" rel="noopener noreferrer">
-                <button className="btn">
-                View Presentation
-                </button>
-              </a>
-
-              
-            </div>
-          </div>
-        </li>
+        
 
        
       </ul>
