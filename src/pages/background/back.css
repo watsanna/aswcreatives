@@ -7,9 +7,10 @@ body.dark-mode {
     radial-gradient(circle at 50% 50%, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0) 60%);
     background-size: cover;
     background-repeat: no-repeat;
+    
 }
 
 body.light-mode {
     background: radial-gradient(circle at 50% 50%, #e4b1e7, #bbc7f8, #f5beb0);
-   
+    
 }

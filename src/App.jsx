@@ -12,6 +12,8 @@ import Contact from './pages/Contact/contact';
 import Mode from './pages/background/mode';
 import Blog from './pages/MyBlog/blog';
 import Integration from './pages/MyBlog/Integration';
+import Inspiration from './pages/MyBlog/Inspiration';
+import Prism from './pages/MyBlog/Prism';
 //import asl-app from './pages/Tech/sl-app/src/AppSL';
 //import AppSL from './pages/Tech/sl-app/AppSL.jsx';
 //import HomeSL from './pages/Tech/sl-app/components/SL_page/HomeSL.jsx';
@@ -33,6 +35,8 @@ const App = () => (
           <Route path="/dance" element={<Dance />} />
           <Route path="/blog" element={<Blog />} />
           < Route path="/Integration" element={<Integration />} />
+          <Route path="/Inspiration" element={<Inspiration />} />
+          <Route path="/Prism" element={<Prism />} />
            {/*<Route path="/HomeSL/*"element={HomeSL}/>
          <Route path="/contact" element={<Contact />} /> */}
         </Routes>

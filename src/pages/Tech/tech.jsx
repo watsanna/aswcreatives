@@ -10,16 +10,19 @@ import vr from './VR_UI_research.pdf';
 import sa from './swin_architecture.pdf';
 import dr from './Digital Foundation_Recommender.pdf';
 import dw from './dance_website.pdf';
+import thesis from './Annaliese_Watson_Thesis2025.pdf';
 
 
 const Tech = () => {
   const [isPdfOpen, setIsPdfOpen] = useState(false);
   const [selectedPdf, setSelectedPdf] = useState(null);
+ 
   
 
   const handleButtonClick = (pdf) => {
     setSelectedPdf(pdf);
     setIsPdfOpen(true);
+  
   };
 
   const handleClosePdf = () => {
@@ -27,8 +30,7 @@ const Tech = () => {
     setSelectedPdf(null);
   };
 
-  
-   
+
 
   return (
     <div className="flex justify-center w-full">
@@ -76,6 +78,20 @@ const Tech = () => {
               >
                 View Research Posters
               </button>
+              <button 
+                className="btn "
+                onClick={() => handleButtonClick(thesis)}
+              >
+                View Research Thesis
+              </button>
+
+              <button 
+                className="btn "
+                onClick={() => window.open('https://www.youtube.com/watch?v=DvdG3CyTLDk', '_blank')}
+              >
+                View Immersive Demo
+              </button>
+
             </div>
           </div>
         </li>
@@ -100,7 +116,7 @@ const Tech = () => {
               </button>
               <a href="https://www.mdpi.com/2079-9292/13/8/1509" target="_blank" rel="noopener noreferrer">
                 <button className="btn">
-                  View Paper
+                  View Publication
                 </button>
               </a>
 
@@ -151,7 +167,7 @@ const Tech = () => {
               </button>
               <a href="https://ieeexplore.ieee.org/document/10759049" target="_blank" rel="noopener noreferrer">
                 <button className="btn">
-                  View Paper
+                  View Publication
                 </button>
               </a>
               
@@ -176,9 +192,7 @@ const Tech = () => {
               >
                 View Details
               </button>
-
-             
-
+              
               
             </div>
           </div>
