@@ -11,6 +11,7 @@ import sa from './swin_architecture.pdf';
 import dr from './Digital Foundation_Recommender.pdf';
 import dw from './dance_website.pdf';
 import thesis from './Annaliese_Watson_Thesis2025.pdf';
+import job_tracker from './Job_Tracker_Platform.pdf'; // Import the job tracker PDF
 
 
 const Tech = () => {
@@ -54,7 +55,7 @@ const Tech = () => {
 
               <a href="https://www.figma.com/proto/9wZsmrcCnRat0lAvTtnIXF/UI%2FUX-Final-Project?page-id=0%3A1&node-id=712-2605&viewport=-1090%2C-3331%2C0.4&t=WC0iK27RXWLuwR3d-1&scaling=contain&content-scaling=fixed&starting-point-node-id=712%3A2605" target="_blank" rel="noopener noreferrer">
                 <button className="btn">
-                View Presentation
+                View Overview
                 </button>
               </a>
 
@@ -90,6 +91,34 @@ const Tech = () => {
                 onClick={() => window.open('https://www.youtube.com/watch?v=DvdG3CyTLDk', '_blank')}
               >
                 View Immersive Demo
+              </button>
+
+            </div>
+          </div>
+        </li>
+
+        <li className="w-full md:w-1/2 lg:w-1/3 p-4">
+          <div className="bg-[#174260] rounded-lg shadow-lg flex flex-col overflow-hidden">
+            <div className="h-40 w-full">
+              <img src={VRImage} alt="VR Headset" className="h-full w-full object-cover"/>
+            </div>
+            <div className="p-4">
+              <h2 className="text-white text-xl font-bold mb-4">
+                Job Tracker Web Application
+              </h2>
+              
+              <button 
+                className="btn "
+                onClick={() => handleButtonClick(job_tracker)}
+              >
+                View Overview
+              </button>
+
+              <button 
+                className="btn "
+                onClick={() => window.open('https://youtu.be/PCjdHjuDNj0', '_blank')}
+              >
+                View Live Demo
               </button>
 
             </div>
