@@ -11,7 +11,8 @@ import sa from './swin_architecture.pdf';
 import dr from './Digital Foundation_Recommender.pdf';
 import dw from './dance_website.pdf';
 import thesis from './Annaliese_Watson_Thesis2025.pdf';
-import job_tracker from './Job_Tracker_Platform.pdf'; // Import the job tracker PDF
+import job_tracker from './Job_Tracker_Platform.pdf'; 
+import JTImage from './JT.jpeg'
 
 
 const Tech = () => {
@@ -100,7 +101,7 @@ const Tech = () => {
         <li className="w-full md:w-1/2 lg:w-1/3 p-4">
           <div className="bg-[#174260] rounded-lg shadow-lg flex flex-col overflow-hidden">
             <div className="h-40 w-full">
-              <img src={VRImage} alt="VR Headset" className="h-full w-full object-cover"/>
+              <img src={JTImage} alt="VR Headset" className="h-full w-full object-cover"/>
             </div>
             <div className="p-4">
               <h2 className="text-white text-xl font-bold mb-4">
