@@ -12,7 +12,7 @@ import dr from './Digital Foundation_Recommender.pdf';
 import dw from './dance_website.pdf';
 import thesis from './Annaliese_Watson_Thesis2025.pdf';
 import job_tracker from './Job_Tracker_Platform.pdf'; 
-import JTImage from './JT.jpeg'
+import JTImage from './JT.jpeg';
 
 
 const Tech = () => {
