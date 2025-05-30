@@ -12,7 +12,7 @@ import dr from './Digital Foundation_Recommender.pdf';
 import dw from './dance_website.pdf';
 import thesis from './Annaliese_Watson_Thesis2025.pdf';
 import job_tracker from './Job_Tracker_Platform.pdf'; 
-import JTImage from './JT.jpeg'
+import JTImage from './JT.jpeg';
 
 
 const Tech = () => {
@@ -68,6 +68,65 @@ const Tech = () => {
         <li className="w-full md:w-1/2 lg:w-1/3 p-4">
           <div className="bg-[#174260] rounded-lg shadow-lg flex flex-col overflow-hidden">
             <div className="h-40 w-full">
+              <img src={JTImage} alt="VR Headset" className="h-full w-full object-cover"/>
+            </div>
+            <div className="p-4">
+              <h2 className="text-white text-xl font-bold mb-4">
+                Job Tracker Web Application
+              </h2>
+              
+              <button 
+                className="btn "
+                onClick={() => handleButtonClick(job_tracker)}
+              >
+                View Overview
+              </button>
+
+              <button 
+                className="btn "
+                onClick={() => window.open('https://youtu.be/PCjdHjuDNj0', '_blank')}
+              >
+                View Live Demo
+              </button>
+
+            </div>
+          </div>
+        </li>
+
+
+        <li className="w-full md:w-1/2 lg:w-1/3 p-4">
+          <div className="bg-[#174260] rounded-lg shadow-lg flex flex-col overflow-hidden">
+            <div className="h-40 w-full">
+              <img src={DWImage} alt="CB Research" className="h-full w-full object-cover"/>
+            </div>
+            <div className="p-4">
+              <h2 className="text-white text-xl font-bold mb-4">
+              Dance Website - Software Engineering Project
+              </h2>
+              <button 
+                className="btn "
+                onClick={() => handleButtonClick(dw)} 
+              >
+                View Details
+              </button>
+
+               <button 
+                className="btn "
+                onClick={() => window.open('https://youtu.be/A7V5ugAfBlk','_blank')}
+              >
+                View Live Demo
+              </button>
+              
+              
+            </div>
+          </div>
+        </li>
+
+
+
+        <li className="w-full md:w-1/2 lg:w-1/3 p-4">
+          <div className="bg-[#174260] rounded-lg shadow-lg flex flex-col overflow-hidden">
+            <div className="h-40 w-full">
               <img src={VRImage} alt="VR Headset" className="h-full w-full object-cover"/>
             </div>
             <div className="p-4">
@@ -98,33 +157,7 @@ const Tech = () => {
           </div>
         </li>
 
-        <li className="w-full md:w-1/2 lg:w-1/3 p-4">
-          <div className="bg-[#174260] rounded-lg shadow-lg flex flex-col overflow-hidden">
-            <div className="h-40 w-full">
-              <img src={JTImage} alt="VR Headset" className="h-full w-full object-cover"/>
-            </div>
-            <div className="p-4">
-              <h2 className="text-white text-xl font-bold mb-4">
-                Job Tracker Web Application
-              </h2>
-              
-              <button 
-                className="btn "
-                onClick={() => handleButtonClick(job_tracker)}
-              >
-                View Overview
-              </button>
-
-              <button 
-                className="btn "
-                onClick={() => window.open('https://youtu.be/PCjdHjuDNj0', '_blank')}
-              >
-                View Live Demo
-              </button>
-
-            </div>
-          </div>
-        </li>
+        
         
 
 
@@ -149,10 +182,17 @@ const Tech = () => {
                   View Publication
                 </button>
               </a>
+              
+
+              <button 
+                className="btn "
+                onClick={() => window.open('https://youtu.be/NBNNg6UvRcU', '_blank')}
+              >
+                View Live Demo
+              </button>
 
               
 
-              
             </div>
           </div>
         </li>
@@ -204,33 +244,7 @@ const Tech = () => {
             </div>
           </div>
         </li>
-
-
-
-        <li className="w-full md:w-1/2 lg:w-1/3 p-4">
-          <div className="bg-[#174260] rounded-lg shadow-lg flex flex-col overflow-hidden">
-            <div className="h-40 w-full">
-              <img src={DWImage} alt="CB Research" className="h-full w-full object-cover"/>
-            </div>
-            <div className="p-4">
-              <h2 className="text-white text-xl font-bold mb-4">
-              Dance Website - Software Engineering Project
-              </h2>
-              <button 
-                className="btn "
-                onClick={() => handleButtonClick(dw)} 
-              >
-                View Details
-              </button>
-              
-              
-            </div>
-          </div>
-        </li>
-
-
-        
-
+      
        
       </ul>
 

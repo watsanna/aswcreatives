@@ -39,14 +39,15 @@ const Blog = () => {
           </div>
 
           <div className="md:w-2/3 flex flex-col justify-center pl-0 md:pl-6 mt-6 md:mt-0">
-            <h1 className=" text-gray-900 font-great-vibes text-[8vw] md:text-[6vw] lg:text-[4vw]">
+          <h1 className=" text-gray-900 font-great-vibes text-[8vw] md:text-[6vw] lg:text-[4vw]"> Prism Part 3</h1>
+            <h1 className=" text-gray-900 font-great-vibes text-[7vw] md:text-[5vw] lg:text-[3vw]">
               Moving to the Stage - The Vision Came to Life
             </h1>
             <p className="text-gray-900 font-serif text-[4vw] md:text-[2vw] lg:text-[1vw] mt-2">
               April 23, 2025
             </p>
             <p className="text-gray-900 font-serif text-[4vw] md:text-[2vw] lg:text-[1vw] mt-4">
-              After all the hard work that was put into the choreography, rehearsal and vision, it was time to bring it to life on stage. The audience could feel the emotions and message we were tried to convey.
+              After all the hard work that was put into the choreography, rehearsal and vision, it was time to bring it to life on stage. The audience could feel the emotions and message we tried to convey.
             </p>
             <Link to="/prism">
               <button className="btn mt-4">View Blog Post</button>
@@ -68,7 +69,8 @@ const Blog = () => {
           </div>
 
           <div className="md:w-2/3 flex flex-col justify-center pl-0 md:pl-6 mt-6 md:mt-0">
-            <h1 className=" text-gray-900 font-great-vibes text-[8vw] md:text-[6vw] lg:text-[4vw]">
+          <h1 className=" text-gray-900 font-great-vibes text-[8vw] md:text-[6vw] lg:text-[4vw]"> Prism Part 2</h1>
+            <h1 className=" text-gray-900 font-great-vibes text-[7vw] md:text-[5vw] lg:text-[3vw]">
               The Movement Inspiration – Final Choreography with Kean Dance Theatre
             </h1>
             <p className="text-gray-900 font-serif text-[4vw] md:text-[2vw] lg:text-[1vw] mt-2">
@@ -95,7 +97,8 @@ const Blog = () => {
           </div>
 
           <div className="md:w-2/3 flex flex-col justify-center pl-0 md:pl-6 mt-6 md:mt-0">
-            <h1 className="text-gray-900 font-great-vibes text-[8vw] md:text-[6vw] lg:text-[4vw]">
+            <h1 className=" text-gray-900 font-great-vibes text-[8vw] md:text-[6vw] lg:text-[4vw]"> Prism Part 1</h1>
+            <h1 className="text-gray-900 font-great-vibes text-[7vw] md:text-[5vw] lg:text-[3vw]">
               My Beginning of Dance and Technology Integration
             </h1>
             <p className="text-gray-900 font-serif text-[4vw] md:text-[2vw] lg:text-[1vw] mt-2">
